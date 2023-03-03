@@ -554,3 +554,34 @@ h3 {
   line-height: 20px;
   color: #4A4A4A;
 }
+
+
+/*------------------------Sixth Gift section-------------------*/
+
+.footer {
+  max-height: 300px;
+  background: #1A1A1A;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.footer a, p {
+  font-weight: 300;
+  font-size: 15px;
+  color: #888888;
+  padding-top: 10px;
+}
+
+.footer a {
+  padding: 0 10px ;
+}
+
+
+.footer a:hover {
+  cursor: pointer;
+}
+
+.footer a:first-child {
+  border-right: 1px solid #888888;
+}
