@@ -341,7 +341,7 @@ hr {
   color: white;
 }
 
-.promo button {
+button {
   width: 313px;
   height: 72px;
   background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);;
@@ -355,7 +355,7 @@ hr {
 
 }
 
-.promo button:hover {
+button:hover {
   background: #9fd8e5;
   color: #262323;
 }
@@ -491,7 +491,6 @@ h3 {
 }
 
 
-
 .finish_descr {
   font-weight: 300;
   font-size: 17px;
@@ -499,4 +498,25 @@ h3 {
   margin-top: 20px;
   text-align: center;
 
+}
+
+
+/*------------------------Fifth Gift section-------------------*/
+.gift {
+  background: #EFEFEF;
+  min-height: 631px;
+  text-align: center;
+  padding: 88px 0;
+}
+
+.gift img {
+  width: 154px;
+}
+
+.gift p {
+  padding-top: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
 }
