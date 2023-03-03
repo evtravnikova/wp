@@ -281,6 +281,7 @@ textarea {
 }
 
 .container {
+  position: relative;
   width: 1140px;
   margin: 0 auto;
 }
@@ -366,19 +367,19 @@ hr {
 
 /*------------------------Second section-------------------*/
 .plan {
-  height: 600px;
+  min-height: 600px;
   background: #EFEFEF;
   padding: 85px 0 75px 0;
 }
 
-.plan h3 {
+h3 {
   font-weight: 400;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
 }
 
-.plan img {
+.divider {
   display: block;
   margin: 0 auto;
   margin-top: 18px;
@@ -393,6 +394,7 @@ hr {
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 45px;
   align-items: center;
   justify-content: space-between;
@@ -404,8 +406,97 @@ hr {
 }
 
 .card p {
-  margin-top: 26px;
+  margin-top: 33px;
   line-height: 21px;
   font-weight: 300;
   font-size: 15px;
+}
+
+.card img {
+  width: 100%;
+}
+
+/*------------------------Third section-------------------*/
+
+
+.optimization {
+  min-height: 550px;
+  padding: 102px 0 102px 0;
+}
+
+.optimization h3 {
+  margin-left: 391px;
+  font-weight: 900;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #299CBD;
+}
+
+.optimization_text {
+  margin-left: 391px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.optimization_text p {
+  padding-top: 30px;
+}
+
+.optimization p:first-child {
+  padding-top: 60px;
+}
+
+.optimization img {
+  position: absolute;
+  top: 48px;
+  left: -240px;
+  z-index: -1;
+}
+
+/*------------------------Fourth section-------------------*/
+.finish {
+  min-height: 447px;
+  padding: 86px 0;
+  background: url("../img/circles/second_bg.png") center center/cover no-repeat;
+
+}
+
+.final_title, .finish_descr {
+  color: #EFEFEF;
+}
+
+
+.finish_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+
+}
+
+.finish_item {
+  width: 204px;
+}
+
+.finish_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 118px;
+  height: 118px;
+  border-radius: 100%;
+  background: #B4E2FF;
+}
+
+
+
+.finish_descr {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  margin-top: 20px;
+  text-align: center;
+
 }
