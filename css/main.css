@@ -274,7 +274,7 @@ textarea {
 }
 
 .promo {
-  height: 800px;
+  height: 750px;
   background: url("../img/main_bg.png") #000 center center/cover no-repeat;
   text-align: center;
   padding-top: 39px;
@@ -360,10 +360,6 @@ button:hover {
   color: #262323;
 }
 
-.arrow {
-  margin-top: 10px;
-  opacity: 40%;
-}
 
 /*------------------------Second section-------------------*/
 .plan {
