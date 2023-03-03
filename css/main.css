@@ -581,3 +581,23 @@ h3 {
 .footer a:first-child {
   border-right: 1px solid #888888;
 }
+
+
+/*------------------------Arrow top section-------------------*/
+.circle_top {
+  background: #299CBD;
+  height: 50px;
+  width: 50px;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 100px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle_top svg {
+  height: 30px;
+}
